@@ -10,9 +10,11 @@ import { PoTemplatesModule } from '@po-ui/ng-templates';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 
+import { DashboardComponent } from './dashboard/dashboard.component';
+
 @NgModule({
-  declarations: [AppComponent],
-  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, PoModule, RouterModule.forRoot([]), PoTemplatesModule],
+  declarations: [AppComponent, DashboardComponent],
+  imports: [BrowserModule, RouterModule.forRoot([]), IonicModule.forRoot(), PoModule, PoTemplatesModule, AppRoutingModule],
   providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
   bootstrap: [AppComponent],
 })
