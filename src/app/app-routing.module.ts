@@ -3,6 +3,7 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
 import { LayoutPageComponent } from './layout-page/layout-page.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { ProductsListComponent } from './products/products-list/products-list.component';
 
 const routes: Routes = [
   {
@@ -17,6 +18,15 @@ const routes: Routes = [
       {
         path: 'dashboard',
         component: DashboardComponent
+      },
+      {
+        path: 'products',
+        redirectTo: 'products/list',
+        pathMatch: 'full'
+      },
+      {
+        path: 'products/list',
+        component: ProductsListComponent
       }
     ]
   }

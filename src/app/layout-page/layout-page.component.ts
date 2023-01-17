@@ -15,6 +15,12 @@ export class LayoutPageComponent implements OnInit {
       shortLabel: 'Dashboard',
       icon: 'po-icon-chart-columns',
       link: 'dashboard'
+    },
+    {
+      label: 'Produtos',
+      shortLabel: 'Produtos',
+      icon: 'po-icon-stock',
+      link: 'products'
     }
   ];
 

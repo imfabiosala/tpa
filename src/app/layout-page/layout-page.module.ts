@@ -7,9 +7,10 @@ import { PoTemplatesModule } from '@po-ui/ng-templates';
 
 import { LayoutPageComponent } from './layout-page.component';
 import { DashboardComponent } from '../dashboard/dashboard.component';
+import { ProductsListComponent } from '../products/products-list/products-list.component';
 
 @NgModule({
-  declarations: [LayoutPageComponent, DashboardComponent],
+  declarations: [LayoutPageComponent, DashboardComponent, ProductsListComponent],
   imports: [CommonModule, RouterModule, PoModule, PoTemplatesModule]
 })
 
