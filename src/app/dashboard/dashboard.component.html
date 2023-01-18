@@ -1,3 +1,11 @@
 <po-page-default p-title="Dashboard">
-  
+
+    <po-chart
+        [p-series]="[
+            { label: 'Angular', data: 100 },
+            { label: 'React', data: 10 }
+        ]"
+    >
+    </po-chart>
+
 </po-page-default>
