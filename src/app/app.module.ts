@@ -12,8 +12,10 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { LayoutPageModule } from './layout-page/layout-page.module';
 
+import { LoginComponent } from './login/login.component';
+
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, LoginComponent],
   imports: [BrowserModule, RouterModule.forRoot([]), IonicModule.forRoot(), PoModule, PoTemplatesModule, AppRoutingModule, LayoutPageModule],
   providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
   bootstrap: [AppComponent],
