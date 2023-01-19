@@ -44,6 +44,16 @@ export class ProductsListComponent implements OnInit {
       name: 'FEIJAO PRETO 1KG COLIBRI',
       codebar: '1597532846555'
     },
+    {
+      id: '000004',
+      name: 'OLEO DE SOJA 900ML LIZA',
+      codebar: '7896541236545'
+    },
+    {
+      id: '000005',
+      name: 'OLEO DE MILHO 900ML LIZA',
+      codebar: '7896541236549'
+    }
   ];
 
   actions: Array<PoTableAction> = [

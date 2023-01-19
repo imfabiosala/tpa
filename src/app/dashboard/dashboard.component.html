@@ -1,9 +1,12 @@
 <po-page-default p-title="Dashboard">
 
     <po-chart
+        p-title="Produtos Cadastrados (Tipo)"
         [p-series]="[
-            { label: 'Angular', data: 100 },
-            { label: 'React', data: 10 }
+            { label: 'Arroz', data: 2, tooltip: 'Arroz', color: 'color-02' },
+            { label: 'Feijão', data: 1, tooltip: 'Feijão', color: 'color-04' },
+            { label: 'Óleo de Soja', data: 1, tooltip: 'Óleo de Soja', color: 'color-06' },
+            { label: 'Óleo de Milho', data: 1, tooltip: 'Óleo de Milho', color: 'color-08' }
         ]"
     >
     </po-chart>
